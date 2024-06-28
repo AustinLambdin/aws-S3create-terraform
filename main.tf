@@ -1,8 +1,5 @@
 provider "aws" {
   region = "us-east-2"
-  assume_role {
-    role_arn = "arn:aws:iam::029096208579:user/Austin"
-  }
 }
 
 module "s3-bucket" {
